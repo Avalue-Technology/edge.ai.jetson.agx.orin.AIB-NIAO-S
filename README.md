@@ -14,4 +14,4 @@ How to install Docker Ollama. - [Docker_Ollama.md](./Docker_Ollama.md)
 How to run Llama3.2 Vision under Ollama. - [Docker_Ollama_Llama3_2_Vision.md](./Docker_Ollama_Llama3_2_Vision.md)
 
 # Docker - Ollama - Ministral-3:8B Instruct-2512-FP16
-How to run Ministral-3:8B Instruct-2512-FP16 under Ollama. - [Docker_Ollama_Ministral-3_8B Instruct-2512-FP16.md](./Docker_Ollama_Ministral-3_8B Instruct-2512-FP16.md)
+How to run Ministral-3:8B Instruct-2512-FP16 under Ollama. - [Docker_Ollama_Ministral_3_8B_Instruct_2512_FP16.md](./Docker_Ollama_Ministral_3_8B_Instruct_2512_FP16.md)
