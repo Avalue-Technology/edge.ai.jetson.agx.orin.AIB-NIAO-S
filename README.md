@@ -1,5 +1,5 @@
 # Introduction
-This article primarily introduces how to install Docker, Ollama, Llama3.2 Vision, Molmo 7B on the AIB-NIAO-S Ubuntu 22.04 environment provided by Avalue Technology Inc.
+This article primarily introduces how to install Docker, Ollama and run Edge AI Models through Ollama on the AIB-NIAO-S Ubuntu 22.04 environment provided by Avalue Technology Inc.
 
 # Docker - JetPack 5.x (R35.x)
 How to install Docker when target device with NVIDIA JetPack 5.x. - [Docker_JetPack_5.x.md](./Docker_JetPack_5.x.md)
