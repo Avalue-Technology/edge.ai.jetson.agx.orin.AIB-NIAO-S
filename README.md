@@ -11,7 +11,7 @@ How to install Docker when target device with NVIDIA JetPack 6.x. - [Docker_JetP
 How to install Docker Ollama. - [Docker_Ollama.md](./Docker_Ollama.md)
 
 # Docker - Ollama - Llama3.2 Vision
-How to run Llama3.2 Vision under Ollama. - [Docker_Ollama_Llama3.2 Vision.md](./Docker_Ollama_Llama3.2 Vision.md)
+How to run Llama3.2 Vision under Ollama. - [Docker_Ollama_Llama3_2_Vision.md](./Docker_Ollama_Llama3_2_Vision.md)
 
 # Docker - Ollama - Ministral-3:8B Instruct-2512-FP16
 How to run Ministral-3:8B Instruct-2512-FP16 under Ollama. - [Docker_Ollama_Ministral-3_8B Instruct-2512-FP16.md](./Docker_Ollama_Ministral-3_8B Instruct-2512-FP16.md)
