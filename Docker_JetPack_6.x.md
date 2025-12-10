@@ -23,6 +23,8 @@ sudo apt install nano
 
 # External Storage
 Because of NVIDIA Jetson AGX Orin 64 GB is using shared memory architecture. So we will recommand you to extend NVMe SSD for Docker Images, Containers...etc.
+Besides, Edge AI Models can also take up a lot of disk space. 
+Please refer to the following steps to expand the NVMe SSD storage, then install Docker, and ensure all relevant files are stored within the expanded NVMe SSD.
 
 ## Format External Storage - ext4
 ```bash
