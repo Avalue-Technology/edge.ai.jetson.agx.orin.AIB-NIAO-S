@@ -3,6 +3,8 @@
 docker run -d --name ollama \
   --network=host \
   --privileged \
+  --gpus all \
+  --runtime=nvidia \
   -v /media/ssd/ollama:/root/.ollama \
   ollama/ollama:latest
 

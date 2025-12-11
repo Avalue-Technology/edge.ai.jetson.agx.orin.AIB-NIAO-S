@@ -82,6 +82,32 @@ sudo nano /etc/fstab
 sudo mount -a
 ```
 
+## Configure Docker - Data Root Directory, NVIDIA Container Runtime
+```bash
+sudo mkdir -p /media/ssd/docker
+sudo chmod 1777 /media/ssd/docker
+sudo mkdir -p /etc/docker
+sudo nano /etc/docker/daemon.json
+```
+
+```
+{
+    "data-root": "/media/ssd/docker",
+	"log-driver": "json-file",
+    "log-opts": {
+        "max-size": "50m",
+        "max-file": "3"
+    },
+	"default-runtime": "nvidia",
+    "runtimes": {
+        "nvidia": {
+            "path": "nvidia-container-runtime",
+            "runtimeArgs": []
+        }
+    }
+}
+```
+
 # Install - Docker
 ## Uninstall - Docker
 To ensure the installation and setup process aligns with the documentation, if Docker has been previously installed, consider removing the existing installation first.
@@ -121,29 +147,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```bash
 sudo apt install -y nvidia-container-runtime
 sudo apt install -y libnvidia-container1 libnvidia-container-tools
-```
-
-## Configure Docker - NVIDIA Container Runtime
-```bash
-sudo nano /etc/docker/daemon.json
-```
-
-```
-{
-    "data-root": "/media/ssd/docker",
-	"log-driver": "json-file",
-    "log-opts": {
-        "max-size": "50m",
-        "max-file": "3"
-    }
-	"default-runtime": "nvidia",
-    "runtimes": {
-        "nvidia": {
-            "path": "nvidia-container-runtime",
-            "runtimeArgs": []
-        }
-    }
-}
 ```
 
 ## Enable - Docker Service
