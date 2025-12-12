@@ -36,3 +36,8 @@ sudo apt install brave-browser
 # Start brave-browser
 brave-browser
 ```
+
+## Reference
+[Jetson Ubuntu 22.04 Snap Chromium/Firefox issue](https://forum.seeedstudio.com/t/jetson-ubuntu-22-04-snap-chromium-firefox-issue/293248?utm_source=chatgpt.com "Jetson Ubuntu 22.04 Snap Chromium/Firefox issue")
+
+[JetPack 6.0 not recognized by Jetson AGX Orin (suspect of problem with graphics server)](https://forums.developer.nvidia.com/t/jetpack-6-0-not-recognized-by-jetson-agx-orin-suspect-of-problem-with-graphics-server/339190?utm_source=chatgpt.com "JetPack 6.0 not recognized by Jetson AGX Orin (suspect of problem with graphics server)")
